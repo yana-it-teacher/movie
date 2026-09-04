@@ -1,1 +1,118 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>CineSearch — Movies</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="movie-search-site">
+      <header class="navbar">
+        <div class="nav-left">
+          <div class="logo">
+            <div class="logo-badge"></div>
+            <div class="logo-text">CineSearch</div>
+          </div>
 
+          <nav class="nav-links">
+            <a class="nav-link active">Home</a>
+            <a class="nav-link">Popular</a>
+            <a class="nav-link">Top Rated</a>
+            <a class="nav-link">Genres</a>
+          </nav>
+        </div>
+
+        <div class="search-bar">
+          <input id="search" type="search" placeholder="Search movies, actors..." />
+        </div>
+      </header>
+
+      <section class="hero-section">
+        <div class="featured-content">
+          <div class="badge-row">
+            <div class="featured-label">Featured</div>
+            <div class="rating-indicator"><span class="star">★</span><span class="rating">9.4 / 10</span></div>
+            <div class="meta">2025 • Action, Sci-Fi • 2h 18m</div>
+          </div>
+
+          <div class="title-teaser">
+            <h1 class="title">NEO ARC: CHRONICLES</h1>
+            <p class="teaser">In the neon-drenched underworld of Neo Arc, a rogue cybernetic agent must race to decode a data package that could crash the global network.</p>
+          </div>
+
+          <div class="cta-row">
+            <button class="watch-btn">Watch Trailer</button>
+            <button class="details-btn">More Info</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="trending-section">
+        <div class="section-header">
+          <div class="frame"><div class="accent"></div><div class="heading">Trending Now</div></div>
+          <div class="see-all">See All</div>
+        </div>
+
+        <div class="cards-row" id="cards">
+          <!-- Movie cards generated in HTML for skeleton -->
+          <article class="movie-card">
+            <div class="poster-container">
+              <div class="poster-image" style="background-image:linear-gradient(#222,#111);"></div>
+              <div class="rating-badge"><span class="star">★</span><span class="score">8.9</span></div>
+            </div>
+            <div class="card-details">
+              <div class="movie-title">Stellar Drift</div>
+              <div class="movie-meta">2026 • Sci-Fi</div>
+            </div>
+          </article>
+
+          <article class="movie-card">
+            <div class="poster-container">
+              <div class="poster-image" style="background-image:linear-gradient(#2a2a2f,#0f0f13);"></div>
+              <div class="rating-badge"><span class="star">★</span><span class="score">8.5</span></div>
+            </div>
+            <div class="card-details">
+              <div class="movie-title">Shadow Protocol</div>
+              <div class="movie-meta">2024 • Thriller</div>
+            </div>
+          </article>
+
+          <article class="movie-card">
+            <div class="poster-container">
+              <div class="poster-image" style="background-image:linear-gradient(#361b5a,#0c0810);"></div>
+              <div class="rating-badge"><span class="star">★</span><span class="score">9.1</span></div>
+            </div>
+            <div class="card-details">
+              <div class="movie-title">Midnight Racer</div>
+              <div class="movie-meta">2025 • Action</div>
+            </div>
+          </article>
+
+          <article class="movie-card">
+            <div class="poster-container">
+              <div class="poster-image" style="background-image:linear-gradient(#0b2332,#051018);"></div>
+              <div class="rating-badge"><span class="star">★</span><span class="score">7.8</span></div>
+            </div>
+            <div class="card-details">
+              <div class="movie-title">Echoes of Silence</div>
+              <div class="movie-meta">2023 • Drama</div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <div class="copyright">© 2026 CineSearch. Built for cinephiles. All rights reserved.</div>
+        <div class="footer-links">
+          <a>Privacy Policy</a>
+          <a>Terms of Use</a>
+          <a>API Data</a>
+        </div>
+      </footer>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
